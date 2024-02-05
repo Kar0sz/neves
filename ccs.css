@@ -11,7 +11,20 @@
 body:has(#szín:checked) {
     --c: red;
 }
- 
+
 h1{
-    color: var(--c);
+      color: var(--c);
 }
+
+
+:root{
+    --a: none;
+}
+
+body:has(#igen:checked) {
+    --a: none;
+}
+h1{
+    
+}
+
