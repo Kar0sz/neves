@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px ){
+    a {
+        color: red;
+    }
+}
+
+:root{
+    --c: green;
+}
+
+body:has(#szín:checked) {
+    --c: red;
+}
+ 
+h1{
+    color: var(--c);
+}
